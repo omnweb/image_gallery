@@ -1,0 +1,12 @@
+@import "~bootstrap/scss/bootstrap"; // sas esntende que quando o ~ é usado, o arquivo referenciando se encontra dentro de node_models
+
+// Modificando o local onde fica a pasta de fontes
+$fa-font-path: "~font-awesome/fonts";
+
+// Importando font-awesome
+@import "~font-awesome/scss/font-awesome";
+
+// Importando custom para que seja possível gerar o arquivo final
+@import"custom";
+
+
